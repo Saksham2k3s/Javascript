@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script>
+		const a = 100;
+		const b = 300;
+
+		if(a > b) {
+			alert( "value of a is greater : " + a);
+		} else {
+			alert("value of b is greater : " + b);
+		}
+
+		var c = confirm("Saksham ? ");
+
+		 if(c) {
+		 	alert("thanks");
+		 } else {
+		 	alert("Ja apna kam dekhe");
+		 }
+
+		 var d = prompt("Enter value of d : ");
+		 var e = prompt("Enter vlaue fo e : ");
+		 var f = d + e;
+		 if(f < 100){
+               alert("sum is small")
+		 } else {
+		 	alert("sum is not small");
+		 }
+		 
+		 //funcion
+
+		 function krg(a,b){
+		 	// document.write(a);
+		 	const sum = a+b;
+		 	return sum;
+		 }
+		document.write(krg(10,20));
+
+		function wait(pass) {
+			if(pass == true) 
+				document.write("congratulations")
+			else
+				document.write("you are pass")
+		}
+
+		function passorfail(marks) {
+			if (marks < 34) return true;
+			else return false;
+		}
+          const marks = 44;
+		const pass = (passorfail(marks))
+         
+         wait(pass)
+
+
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

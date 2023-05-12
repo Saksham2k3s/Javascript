@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script>
+		
+		var a = {
+			fname : 'Sakshi',
+			lname : 'Shri',
+			age   :  19,
+			city  :' gwalior',
+
+			fmovies : ['krish','Avatar','hum'], //object array
+
+        //ek or object ke andar object
+			living: {
+				city :'gwalior',
+				country : 'India'
+			},
+			salary: function(){
+				return 25000;
+			}
+
+			// fullname: function() {
+			// 	// body...
+			// 	return this.fname + " " + this.lname;
+			// }  
+
+		}    // object end 
+
+		document.write(a.age +"<br>");
+		document.write(a.fmovies[1] +"<br>")
+		document.write(a.salary() +"<br>")
+		// document.write(a.fullname() )
+		document.write(a.living.country +"<br>")
+		
+		//console
+
+		console.log(a)
+
+		document.write(JSON.stringify(a));
+	</script>
+</head>
+<body>
+
+</body>
+</html>

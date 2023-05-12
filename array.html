@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script >
+		var e = [45,34.55,"ram",true];  //array list
+		document.write(e);
+
+		  //multidimensional or 2D array
+     
+     var a =  [
+              ["Ram", 123, "gwalior" ],
+             ["Kiran", 123, "gwalior" ],
+              ["Monu", 123, "gwalior" ],
+               ["Sonu", 123, "gwalior" ],
+                ["Raj", 123, "gwalior" ]
+     	];
+     document.write(a)
+     console.log(a);
+
+     // modify array
+     var a =    ["Ram", 123, "gwalior"];
+     document.write(a +"<br>");
+     a[1] = 456;
+     document.write(a);
+
+     //delete array
+     delete a[0];
+     document.write(a);
+     //push and pop
+       a.push("push");
+       document.write(a); 
+       a.pop();
+       document.write(a)
+
+      //shift and unshift. It adds in first place
+       var b = ["monu", 330, "jaipur"];
+      b.shift();
+           document.write(b +" <br> ") 
+      b.unshift("super")
+      document.write(b +" <br> ") 
+       
+       //slice 
+      var arr = ["aaa", "bbb","ccc","ddd"];
+      
+      // 0,1,2,3,4... from forward
+      // -1,-2,-3,-4.... from backward
+
+      document.write(arr +"<br>")
+      
+      var c = arr.slice (0,2); // show from forward
+
+      document.write(c + "<br>");
+      // c = b.slice(-1,-3); //show from backward
+      //  document.write(c + "<br>");
+	</script> 
+</head>
+<body>
+
+</body>
+</html>
